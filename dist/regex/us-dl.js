@@ -1,10 +1,7 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.US_DL = void 0;
 /**
  * USA driver license formats.
  */
-exports.US_DL = {
+export const US_DL = {
     AL: [
         {
             regex: /^[0-9]{1,8}$/,

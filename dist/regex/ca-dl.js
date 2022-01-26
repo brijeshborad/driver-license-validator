@@ -1,10 +1,7 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.CA_DL = void 0;
 /**
  * Canada driver license formats.
  */
-exports.CA_DL = {
+export const CA_DL = {
     AB: [
         {
             regex: /^[0-9]{9}$/,
