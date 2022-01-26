@@ -18,8 +18,8 @@ export const US_DL: CountryFormats = {
   ],
   AZ: [
     {
-      regex: /^[A-Z]{1}[0-9]{8,9}$/,
-      description: '1 letter followed by 8-9 numbers',
+      regex: /^[A-Z]{1}[0-9]{8}$/,
+      description: '1 letter followed by 8 numbers',
     },
     {
       regex: /^[A-Z]{2}[0-9]{2,5}$/,
