@@ -324,7 +324,7 @@ export const US_DL = {
         //   description: '16 numbers',
         // },
         {
-            regex: /^[A-Z]{9}$/,
+            regex: /^[0-9]{9}$/,
             description: '9 letters',
         },
     ],
