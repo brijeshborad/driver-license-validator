@@ -185,6 +185,10 @@ export const US_DL: CountryFormats = {
       regex: /^[A-Z]{1}[0-9]{12}$/,
       description: '1 letter followed by 12 numbers',
     },
+    {
+      regex: /^[A-Z]{2}[0-9]{11}$/,
+      description: '2 letters followed by 11 numbers',
+    },
   ],
   MA: [
     {
