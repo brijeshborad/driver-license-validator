@@ -6,9 +6,9 @@ import { CountryFormats } from '../interfaces.js';
 export const US_DL: CountryFormats = {
   AL: [
     {
-      regex: /^[0-9]{7,8}$/,
-      description: '7-8 numbers'
-    }
+      regex: /^[0-9]{1,8}$/,
+      description: '1-8 numbers',
+    },
   ],
   AK: [
     {
@@ -32,9 +32,9 @@ export const US_DL: CountryFormats = {
   ],
   AR: [
     {
-      regex: /^[0-9]{9}$/,
-      description: '9 numbers'
-    }
+      regex: /^[0-9]{4,9}$/,
+      description: '4-9 numbers',
+    },
   ],
   CA: [
     {
@@ -45,16 +45,16 @@ export const US_DL: CountryFormats = {
   CO: [
     {
       regex: /^[0-9]{9}$/,
-      description: '9 numbers'
-    }
-    // {
-    //   regex: /^[A-Z]{1}[0-9]{3,6}$/,
-    //   description: '1 letter followed by 3-6 numbers',
-    // },
-    // {
-    //   regex: /^[A-Z]{2}[0-9]{2,5}$/,
-    //   description: '2 letters followed by 2-5 numbers',
-    // },
+      description: '9 numbers',
+    },
+    {
+      regex: /^[A-Z]{1}[0-9]{3,6}$/,
+      description: '1 letter followed by 3-6 numbers',
+    },
+    {
+      regex: /^[A-Z]{2}[0-9]{2,5}$/,
+      description: '2 letters followed by 2-5 numbers',
+    },
   ],
   CT: [
     {
@@ -127,10 +127,10 @@ export const US_DL: CountryFormats = {
     }
   ],
   IA: [
-    // {
-    //   regex: /^[0-9]{9}$/,
-    //   description: '9 numbers',
-    // },
+    {
+      regex: /^[0-9]{9}$/,
+      description: '9 numbers',
+    },
     {
       regex: /^[0-9]{3}[A-Z]{2}[0-9]{4}$/,
       description: '3 numbers followed by 2 letters followed by 4 numbers'
@@ -340,8 +340,8 @@ export const US_DL: CountryFormats = {
   ],
   NC: [
     {
-      regex: /^[0-9]{1,12}$/,
-      description: '1-12 numbers'
+      regex: /^[0-9]{12}$/,
+      description: '12 numbers'
     }
   ],
   ND: [
@@ -380,8 +380,8 @@ export const US_DL: CountryFormats = {
   ],
   OR: [
     {
-      regex: /^[0-9]{1,7}$/,
-      description: '1-7 numbers'
+      regex: /^[0-9]{7}$/,
+      description: '7 numbers'
     },
     {
       regex: /^[A-Z]{1}[0-9]{6}$/,
@@ -415,10 +415,10 @@ export const US_DL: CountryFormats = {
       regex: /^[0-9]{6,10}$/,
       description: '6-10 numbers'
     },
-    {
-      regex: /^[0-9]{12}$/,
-      description: '12 numbers'
-    }
+    // {
+    //   regex: /^[0-9]{12}$/,
+    //   description: '12 numbers'
+    // }
   ],
   TN: [
     {
@@ -434,8 +434,8 @@ export const US_DL: CountryFormats = {
   ],
   UT: [
     {
-      regex: /^[0-9]{4,10}$/,
-      description: '4-10 numbers'
+      regex: /^[0-9]{9}$/,
+      description: '9 numbers'
     }
   ],
   VT: [
