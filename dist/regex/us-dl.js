@@ -458,6 +458,10 @@ export const US_DL = {
     ],
     WA: [
         {
+            regex: /^[WDL]{3}[A-Z0-9]{9}$/,
+            description: '12 characters long, "WDL" followed by nine randomly assigned letters or numbers'
+        },
+        {
             regex: /^(?=.{12}$)[A-Z]{1,7}[A-Z0-9\\*]{4,11}$/,
             description: '1-7 letters followed by any combination of letters, numbers, or "*" for a total of 12 characters'
         }
